@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body {
+  background-color: #63ff8f;
+  background-image: url("../dinner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: transparent;
+  height: 110px;
+  border: none;
+}
+
+.banner {
+  width:40vw;
+  margin-top: 35px;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+img.logo:hover {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 0.5s;
+}
+
+.btn-success {
+  background-color: #63ff8f;
+}
+
+.btn-success:hover {
+  background-color: #48bb68;
+  border-color: #48bb68;
+}
+
+.jumbotron {
+  background: transparent;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 100px;
+}
+
+.darker {
+  color: #48bb68;
+}
+
+.lighter {
+  color: #63ff8f;
+}
+
+.chaperone-footer {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  color: #FFF;
+  padding-top: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 125px;
+}
+
+.content {
+  height: 25vh;
+  background-color: #FFF;
+  color: #63ff8f;
+  margin-top: 10vh;
+  padding-top: 5%;
+}
+
+.content h1, h3 {
+  color: #333;
+}
+
+.content .bordered {
+  border-bottom: 1px solid #63ff8f;
+}
